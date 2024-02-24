@@ -19,7 +19,6 @@ const index = () =>{
             <Ourwork/>
             <Price/>
             <Testimonials/>
-            
             <Footer/>
             
         </div>
