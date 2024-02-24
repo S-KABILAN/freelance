@@ -8,11 +8,13 @@ import Ourwork from "./components/Ourwork";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Techstack from "./components/Techstack";
+import Navbar from "./components/Navbar";
 
 
 const index = () =>{
     return(
         <div>
+            <Navbar/>
             <Intro/>
             <Why/>
             <Techstack/>
