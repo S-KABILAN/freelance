@@ -6,7 +6,7 @@ import Affilliates from "./components/Affiliates";
 import ProductReviewsPage from "./components/ProductReviewsPage";
 import Ourwork from "./components/Ourwork";
 import Testimonials from "./components/Testimonials";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Techstack from "./components/Techstack";
 
 
