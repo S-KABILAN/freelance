@@ -14,8 +14,8 @@ const Footer = () =>{
                     <div className="flex flex-wrap items-center justify-center gap-2.5">
                     <a href="#showcase" className="inline-block rounded-xl border border-transparent px-2.5 py-1 text-base font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300">Showcase</a>
 
-                    <a href="#showcase" className="inline-block rounded-xl border border-transparent px-2.5 py-1 text-base font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300">Reviews</a>
-                    <a href="#showcase" className="inline-block rounded-xl border border-transparent px-2.5 py-1 text-base font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300">Pricing</a>
+                    <a href="#testimonials" className="inline-block rounded-xl border border-transparent px-2.5 py-1 text-base font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300">Reviews</a>
+                    <a href="#price" className="inline-block rounded-xl border border-transparent px-2.5 py-1 text-base font-semibold text-gray-700 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-gray-300">Pricing</a>
 
 
                     </div>

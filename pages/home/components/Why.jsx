@@ -8,7 +8,7 @@ const Why = () => {
             <section id="why" className="bg-white py-12 sm:py-16 lg:py-20 xl:py-24">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
-                    <p className="text-xl font-bold italic tracking-widest text-gray-700">Why our freelance platform</p>
+                    <p className="text-xl font-bold  tracking-widest purple1">Why our freelance platform</p>
                     <h2 className="mt-6 text-3xl font-bold tracking-tight head-color1  sm:text-4xl lg:text-5xl">Smoothly create your content machine</h2>
                     <p className="mx-auto mt-4 text-gray-700  lg:leading-8">Freelance-agency is a simple yet powerful platform that helps create a superfast projects with Notion as a CMS. It's just set and forget!</p>
                     
@@ -37,10 +37,10 @@ const Why = () => {
                 </div>
 
                 <div className="mx-auto  mt-12 grid max-w-5xl grid-cols-1 gap-10 sm:mt-16 sm:grid-cols-2 md:gap-12 xl:gap-16">
-                <div className="flex gap-5 "> <div className="flex-1"><h3 className="text-xl font-bold text-yellow-500">SaaS Products</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We love SaaS. If you have a SaaS product idea, we will make it happen.</h4></div></div>
-                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold text-yellow-500">Mobile & Web Apps</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We can build mobile and web applications for you. You just need to have an Idea.</h4></div></div>
-                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold text-yellow-500">AI Apps</h3><span></span><h4 className="mt-2 text-base font-normal text-white">Have an idea for an awesome AI app? We will build it for you quickly. and will help you launch.</h4></div></div>
-                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold text-yellow-500">Technical Writing</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We also love writing about technical stuff. If you want us to write technical stuff. we can do that.</h4></div></div>
+                <div className="flex gap-5 "> <div className="flex-1"><h3 className="text-xl font-bold purple1">SaaS Products</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We love SaaS. If you have a SaaS product idea, we will make it happen.</h4></div></div>
+                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold purple1">Mobile & Web Apps</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We can build mobile and web applications for you. You just need to have an Idea.</h4></div></div>
+                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold purple1">AI Apps</h3><span></span><h4 className="mt-2 text-base font-normal text-white">Have an idea for an awesome AI app? We will build it for you quickly. and will help you launch.</h4></div></div>
+                <div className="flex gap-5"> <div className="flex-1"><h3 className="text-xl font-bold purple1">Technical Writing</h3><span></span><h4 className="mt-2 text-base font-normal text-white">We also love writing about technical stuff. If you want us to write technical stuff. we can do that.</h4></div></div>
                 
                 </div>
                 </div>

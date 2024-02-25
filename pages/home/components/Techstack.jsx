@@ -36,6 +36,7 @@ const Techstack = () =>{
                     <div className="group relative bg-info transition hover:z-[1] hover:shadow-2xl  hover:shadow-gray-600/10 flex justify-center">
                             <div className="relative space-y-4 py-12 p-8">
                             <DiReact className="md:text-4xl text-x2l" style={{ fontSize: '7rem' }}  color="#53c1de" />
+                            
                             </div>
                             
                     </div>

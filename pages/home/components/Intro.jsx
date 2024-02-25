@@ -4,12 +4,51 @@ import Image from "next/image"
 
 const Intro = () => {
     return(
+
+        <div className="w-full h-screen bg-black overflow-hidden relative">
+      {[...Array(150).keys()].map((i) => (
+        <div
+          key={i}
+          className="snowflake absolute"
+          style={{
+            left: `${Math.random() * 100}%`,
+            top: `${-10 - Math.random() * 20}%`,
+            animationDuration: `${2 + Math.random() * 3}s`,
+            animationDelay: `${Math.random() * 5}s`,
+          }}
+        />
+      ))}
+      <style>
+        {`
+          .snowflake {
+            width: 10px;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            opacity: 0.5;
+            border-radius: 50%;
+            will-change: transform;
+            animation-name: fall;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes fall {
+            0% {transform: translateY(0) scale(0.2);}
+            30% {opacity: 1;}
+            to {
+              transform: translateY(100vh) scale(1);
+              opacity: 0;
+            }
+          }
+        `}
+      </style>
+
+
         <div className=" bg-slate-900">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-11 ">
             
             <div className="mx-auto pt-9 max-w-xl text-center lg:max-w-4xl">
-                <h1 className="text-5xl font-bold tracking-tight head-color sm:text-6xl xl:text-7xl">Get MVP in 15 Days</h1>
-                <h2 className="mt-4 text-lg font-normal leading-7 text-white sm:text-xl lg:mx-auto lg:max-w-3xl xl:text-2xl xl:leading-9">With a budget-friendly and fixed pricing, we'll craft, build,
+                <h1 class="text-3xl font-bold sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent dark:bg-gradient-to-r bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-800 capitalize md:max-w-3xl lg:max-w-5xl">Get MVP in 15 Days</h1>
+                <h2 className="mt-4 text-lg font-normal leading-7 bg-clip-text text-transparent dark:bg-gradient-to-r bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-800  sm:text-xl lg:mx-auto lg:max-w-3xl xl:text-2xl xl:leading-9">With a budget-friendly and fixed pricing, we'll craft, build,
 and bring your idea to life within a 15 days. </h2>
             </div>
 
@@ -19,7 +58,7 @@ and bring your idea to life within a 15 days. </h2>
 
                 </a>
 
-                <a href="" className="inline-flex h-12 items-center justify-center rounded-xl border border-gray-300 px-6 py-2.5 text-base font-semibold text-white transition-all duration-200 hover:border-gray-500 hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 " role="button">
+                <a href="" className="inline-flex h-12 items-center justify-center rounded-xl border border-gray-300 px-6 py-2.5 text-base font-semibold text-white transition-all duration-200 hover:border-gray-500 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 " role="button">
                     Contact us
 
                 </a>
@@ -57,6 +96,7 @@ and bring your idea to life within a 15 days. </h2>
             
  
 
+        </div>
         </div>
 
     )

@@ -1,8 +1,18 @@
 import Tweet from '../components/Tweet';
 
+const Testimonial = ({ quote, author ,profession }) => {
+    return (
+      <div className="border-l-4 border-indigo-400 pl-4 mb-4">
+        <p className="text-lg text-black-400">{quote}</p>
+        <p className="text-indigo-400 mt-2">- {author}</p>
+        <p className="sm:ml-2 text-sm text-gray-400">{profession}</p>
+      </div>
+    );
+  };
+
 const Testimonials = () =>{
 
-    const tweets = [
+    /* const tweets = [
         {
           text: 'U get to know so many tools, hacks If u are working for someone and managing their companys page Surely this hacks will come handy .U get to know so many tools, hacks If u are working for someone and managing their companys page Surely this hacks will come handy .U get to know so many tools, hacks If u are working for someone and managing their companys page Surely this hacks will come handy .',
           size: 'w-[300px] h-[400px]',
@@ -23,14 +33,14 @@ const Testimonials = () =>{
        
         
         // Add more tweets as needed
-      ];
+      ]; */
 
     return(
         
         <section id="testimonials" className="bg-gradient-to-b from-gray-50 to-white py-12 sm:py-16 lg:py-20 xl:py-24">
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="text-center">
-                        <p className="text-sm font-bold uppercase tracking-widest text-gray-700">Testimonials</p>
+                        <p className=" text-xl font-bold  tracking-widest purple1">Testimonials</p>
                         <h2 className="mt-6 text-3xl font-bold tracking-tight head-color1 sm:text-4xl lg:text-5xl">Our growing wall of love ❤️</h2>
                         <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">These are the stories of some of our very early customers about their experience of using feather.</p>
                         
@@ -39,14 +49,32 @@ const Testimonials = () =>{
 
                     </div>
 
-                    <div className='grid h-[500px]'>
+                    {/* <div className='grid h-[500px]'>
           <div className=''>
         {tweets.map((tweet, index) => (
           <Tweet key={index} {...tweet} />
         ))}
        </div>
        
+      </div> */}
+
+      
+      <div className="flex items-center justify-center   text-black">
+      <div className="max-w-4xl p-11 rounded-lg shadow-lg bg-white">
+        
+        <div className="space-y-4">
+          <Testimonial 
+            quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna varius, blandit rhoncus sem." 
+            author="John Doe" profession="Web developer" />
+          <Testimonial 
+            quote="Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt. Etiam in turpis faucibus, vehicula est suscipit, tincidunt tellus." 
+            author="Jane Doe" profession="UI/UX Designer" />
+          <Testimonial 
+            quote="Vehicula est suscipit, tincidunt tellus. Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum." 
+            author="Alex Smith" profession="Software Engineer" />
+        </div>
       </div>
+    </div>
 
 
 

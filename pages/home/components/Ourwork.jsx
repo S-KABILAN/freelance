@@ -5,7 +5,7 @@ const Ourwork = () => {
         <section id="showcase" className="py-12 sm:py-16 lg:py-20 xl:py-24 bg-slate-900">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
-                    <p className="mb-9 text-xl font-bold italic tracking-widest text-white">Showcase</p>
+                    <p className="mb-9 text-xl font-bold  tracking-widest purple1">Showcase</p>
                     <h2 className="mt-1 text-3xl font-bold tracking-tight text-gray-900 head-color sm:text-4xl lg:text-5xl">Beautiful &amp; complex projects built by our agency</h2>
                     <h3 className="mx-auto mt-4 max-w-2xl text-lg font-normal text-white lg:text-xl lg:leading-8">Check out these projects and discover Our's works.</h3>
 
