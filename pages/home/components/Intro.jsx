@@ -5,7 +5,7 @@ import Image from "next/image"
 const Intro = () => {
     return(
 
-        <div className="w-full h-screen bg-black overflow-hidden relative">
+        <div className=" overflow-hidden relative">
       {[...Array(150).keys()].map((i) => (
         <div
           key={i}
