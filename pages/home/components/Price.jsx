@@ -5,6 +5,7 @@ const Price = () => {
         <section id="price">
             <div className="bg-slate-900 py-20 sm:py-32">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    
                     <div className="md:text-center">
                         <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
                             <span className="relative whitespace-nowrap">

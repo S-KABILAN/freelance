@@ -1,5 +1,5 @@
 import React from "react";
-import offeringsData from "./Ourofferingsdata";
+import offeringsData from "./Ourofferingsdata.1";
 
 const Ourofferings = () => {
   return (
