@@ -1,10 +1,7 @@
-
-import Image from "next/image"
 import React, { useEffect } from 'react';
 import { Star } from 'lucide-react';
 
-const Intro = () => {
-
+const SnowRainAnimation = () => {
   useEffect(() => {
     const canvas = document.getElementById('snowCanvas');
     const ctx = canvas.getContext('2d');
@@ -74,8 +71,8 @@ const Intro = () => {
   }, []);
 
   return (
+    
     <div className="bg-black min-h-screen flex items-center justify-center">
-      
       <canvas id="snowCanvas"></canvas>
       <div className="absolute text-center">
         
@@ -121,5 +118,4 @@ and bring your idea to life within a 15 days. </h2>
   );
 };
 
-
-export default Intro 
+export default SnowRainAnimation;

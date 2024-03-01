@@ -3,12 +3,12 @@ import Intro from "./components/Intro";
 import Why from "./components/Why";
 import Price from "./components/Price";
 import Affilliates from "./components/Affiliates";
-import ProductReviewsPage from "./components/ProductReviewsPage";
 import Ourwork from "./components/Ourwork";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Techstack from "./components/Techstack";
 import Navbar from "./components/Navbar";
+import Ourofferings from "./components/Ourofferings";
 
 
 const index = () =>{
@@ -17,6 +17,7 @@ const index = () =>{
             <Navbar/>
             <Intro/>
             <Why/>
+            <Ourofferings/>
             <Techstack/>
             <Ourwork/>
             <Price/>
