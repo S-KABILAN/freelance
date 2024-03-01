@@ -1,5 +1,5 @@
 import React from "react";
-import whyData  from "./Whydata";
+import whyData  from "../componentsdata/Whydata";
 const Why = () => {
   return (
     <section id="why" className="bg-white py-12 sm:py-16 lg:py-20 xl:py-24 min-h-screen">

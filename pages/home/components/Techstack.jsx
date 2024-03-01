@@ -1,5 +1,5 @@
 import React from "react";
-import techStackData from "./Techstackdata.js";
+import techStackData from "../componentsdata/Techstackdata.js";
 
 const Techstack = () => {
   return (

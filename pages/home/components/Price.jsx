@@ -1,4 +1,4 @@
-import Pricedata from "./Pricedata";
+import Pricedata from "../componentsdata/Pricedata";
 
 const Price = () => {
     return (
