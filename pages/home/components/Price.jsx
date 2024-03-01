@@ -1,4 +1,4 @@
-import Pricedata from "../componentsdata/Pricedata";
+import Pricedata from "../componentsdata/Pricedata.mdx";
 
 const Price = () => {
     return (
