@@ -1,6 +1,5 @@
 import React from "react";
 import projectData from "./Ourworkdata";
-
 const Ourwork = () => {
   return (
     <section id="showcase" className="py-12 sm:py-16 lg:py-20 xl:py-24 bg-slate-900">

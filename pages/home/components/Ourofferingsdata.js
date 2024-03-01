@@ -1,6 +1,6 @@
 
 
-export const Ourofferingsdata = [
+const Ourofferingsdata = [
     {
       id: 1,
       title: "SaaS Products",
@@ -23,5 +23,5 @@ export const Ourofferingsdata = [
     }
   ];
   
-  
+  export default Ourofferingsdata
   

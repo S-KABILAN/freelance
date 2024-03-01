@@ -30,7 +30,7 @@ const Affilliates = () => {
         <div className="flex items-center mb-4">
             
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" viewBox="0 0 24 24" fill="none"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" viewBox="0 0 24 24" fill="none"  strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */">
                 <circle cx="12" cy="12" r="10"></circle>
                 <circle cx="12" cy="12" r="6"></circle>
                 <circle cx="12" cy="12" r="2"></circle>
@@ -40,14 +40,14 @@ const Affilliates = () => {
         <p className="text-gray-700">We’re 100% focused on helping creators get more visitors, and sell more products, services and sponsorships.</p>
     </div>
     <div className="p-6 rounded-lg shadow-md bg-white">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"   stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"   strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
     </svg>
         <p className="text-gray-700">Our customers love us - and don't leave. The average customer lifetime value is $800, and you'll get 30% of that.</p>
     </div>
     <div className="p-6 rounded-lg shadow-md bg-white">
         <div className="flex items-center mb-4">
-        <svg xmlns="http://www.w3.org/2000/svg " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+        <svg xmlns="http://www.w3.org/2000/svg " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
             <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
             </svg>
         </div>
@@ -56,7 +56,7 @@ const Affilliates = () => {
     </div>
     <div className="p-6 rounded-lg shadow-md bg-white">
         <div className="flex items-center mb-4">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--token-3b92dee9-2c94-44fd-b5d3-342400922e84, rgb(153, 84, 242)) /* {&quot;name&quot;:&quot;Primary Light&quot;} */" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
             <circle cx="9" cy="7" r="4"></circle>
             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -78,12 +78,12 @@ const Affilliates = () => {
     <div className="p-6 bg-white rounded-lg shadow-md">
         
         <h3 className="text-lg font-bold mb-2">Share your link</h3>
-        <a href="" target="_blank" rel="noopener" class="text-purple-600 hover:underline">Join the agency program</a>
+        <a href="" target="_blank" rel="noopener" className="text-purple-600 hover:underline">Join the agency program</a>
     </div>
     
     <div className="p-6 bg-white rounded-lg shadow-md">
         <div className="aspect-w-16 aspect-h-9 mb-4">
-            <img src="" alt="Card image" class="object-cover rounded-lg"></img>
+            <img src="" alt="Card image" className="object-cover rounded-lg"></img>
         </div>
         <h3 className="text-lg font-bold mb-2">Somebody signs up</h3>
         <p className="text-gray-700">Someone clicks your link and upgrades to a paid plan. They're tracked to you, and you get 30% for life.</p>
@@ -91,7 +91,7 @@ const Affilliates = () => {
     
     <div className="p-6 bg-white rounded-lg shadow-md">
         <div className="aspect-w-16 aspect-h-9 mb-4">
-            <img src="" alt="Card image" class="object-cover rounded-lg"></img>
+            <img src="" alt="Card image" className="object-cover rounded-lg"></img>
         </div>
         <h3 className="text-lg font-bold mb-2">Earn $$$</h3>
         <p className="text-gray-700">Check in any time to see how many customers you’ve referred and check your payout dates.</p>

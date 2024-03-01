@@ -80,7 +80,7 @@ const SnowRainAnimation = () => {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-11 ">
             
             <div className="mx-auto pt-9 max-w-xl text-center lg:max-w-4xl">
-                <h1 class="text-3xl font-bold sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent dark:bg-gradient-to-r bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-800 capitalize md:max-w-3xl lg:max-w-5xl">Get MVP in 15 Days</h1>
+                <h1 className="text-3xl font-bold sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent dark:bg-gradient-to-r bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-800 capitalize md:max-w-3xl lg:max-w-5xl">Get MVP in 15 Days</h1>
                 <h2 className="mt-4 text-lg font-normal leading-7 bg-clip-text text-transparent dark:bg-gradient-to-r bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-800  sm:text-xl lg:mx-auto lg:max-w-3xl xl:text-2xl xl:leading-9">With a budget-friendly and fixed pricing, we'll craft, build,
 and bring your idea to life within a 15 days. </h2>
             </div>
@@ -99,9 +99,9 @@ and bring your idea to life within a 15 days. </h2>
 
 
             <div className="py-8 mt-16 pb-32 border-y border-gray-800 sm:flex flex-col sm:flex-row justify-between items-center">
-            <div className="text-center flex-1 mb-4 sm:mb-0"><h6 class="text-lg font-semibold text-white">SaaS Platforms</h6><p class="mt-2 text-gray-500 px-4">Have a SaaS Product idea? We got you. We will build your SaaS product.</p></div>
-            <div className="text-center flex-1 mb-4 sm:mb-0"><h6 class="text-lg font-semibold text-white">Mobile &amp; Web Apps</h6><p class="mt-2 text-gray-500 px-4">Want to launch Mobile or Web Apps? No problem. We will make it happen.</p></div>
-            <div className="text-center flex-1"><h6 class="text-lg font-semibold text-white">AI Apps</h6><p class="mt-2 text-gray-500 px-4">Have an AI platform idea? We will build that for you. And help you launch.</p></div>
+            <div className="text-center flex-1 mb-4 sm:mb-0"><h6 className="text-lg font-semibold text-white">SaaS Platforms</h6><p className="mt-2 text-gray-500 px-4">Have a SaaS Product idea? We got you. We will build your SaaS product.</p></div>
+            <div className="text-center flex-1 mb-4 sm:mb-0"><h6 className="text-lg font-semibold text-white">Mobile &amp; Web Apps</h6><p className="mt-2 text-gray-500 px-4">Want to launch Mobile or Web Apps? No problem. We will make it happen.</p></div>
+            <div className="text-center flex-1"><h6 className="text-lg font-semibold text-white">AI Apps</h6><p className="mt-2 text-gray-500 px-4">Have an AI platform idea? We will build that for you. And help you launch.</p></div>
 
             </div>
             </div>

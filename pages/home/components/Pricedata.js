@@ -1,4 +1,4 @@
-export const Pricedata = [
+const Pricedata = [
     {
       name: "Starter",
       description: "Good for anyone who is self-employed and just getting started.",
@@ -39,3 +39,4 @@ export const Pricedata = [
     }
   ];
   
+export default Pricedata

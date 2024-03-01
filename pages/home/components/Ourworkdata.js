@@ -1,4 +1,4 @@
-export const Ourworkdata = [
+const Ourworkdata = [
     {
       id: 1,
       name: "Project 1",
@@ -44,4 +44,5 @@ export const Ourworkdata = [
     // Add more projects as needed
   ];
   
+  export default Ourworkdata;
   

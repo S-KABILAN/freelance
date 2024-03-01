@@ -1,3 +1,4 @@
+
 import { AiFillHtml5 } from "react-icons/ai";
 import {
   SiNodedotjs,
@@ -17,7 +18,7 @@ import { DiJavascript1, DiReact } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { FaBootstrap, FaCss3Alt, FaPhp } from "react-icons/fa";
 
-export const TechStackdata = [
+const TechStackdata = [
   { Icon: DiReact, name: "React", color: "#53c1de" },
   { Icon: DiJavascript1, name: "JavaScript", color: "#ffd600" },
   { Icon: FaBootstrap, name: "Bootstrap", color: "#673ab7" },
@@ -37,3 +38,4 @@ export const TechStackdata = [
 ];
 
 
+export default TechStackdata
