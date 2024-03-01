@@ -17,7 +17,7 @@ import { DiJavascript1, DiReact } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { FaBootstrap, FaCss3Alt, FaPhp } from "react-icons/fa";
 
-const TechStackdata = [
+export const TechStackdata = [
   { Icon: DiReact, name: "React", color: "#53c1de" },
   { Icon: DiJavascript1, name: "JavaScript", color: "#ffd600" },
   { Icon: FaBootstrap, name: "Bootstrap", color: "#673ab7" },
@@ -36,4 +36,4 @@ const TechStackdata = [
   { Icon: SiNetlify, name: "Netlify", color: "#31b5ba" }
 ];
 
-export default TechStackdata;
+

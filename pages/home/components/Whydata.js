@@ -1,4 +1,4 @@
-const Whydata = [
+export const Whydata = [
     {
       id: 1,
       title: "Speed",
@@ -21,5 +21,5 @@ const Whydata = [
     }
   ];
   
-  export default Whydata;
+  
   
